@@ -20,8 +20,12 @@
 }
 
 .header {
-    padding: 79px 0;
+    padding-top: 79px;
     background-color: #EEEFF1;
+}
+
+.header_list {
+    font-size: 0px;
 }
 
 .header_list > .item {
@@ -40,15 +44,17 @@
 
 .header_list .active {
     color: #34547A;
+    font-weight: bold;
 }
 
 .header_list .margin ~ .item {
     margin-left: 42px;
 }
 
-.main {
+.section-first {
     background-color: #EEEFF1;
-    padding-top: 83px;
+    padding-top: 162px;
+    padding-bottom: 141px;
 }
 
 .title {
@@ -84,16 +90,32 @@
     text-align: center;
     letter-spacing: 0.1em;
     color: #FFFFFF;
-    margin-bottom: 141px;
+    
 }
 
-.bc-section {
+.bc-section-second {
     background-color: #FFFFFF;
     text-align: center;
     padding: 112px 0 100px 0;
 }
 
-.bc-section > .text {
+.title-section {
+    font-family: Roboto-Medium;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 50px;
+}
+.text-section {
+    font-family: Roboto-Regular;
+    width: 540px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.bc-section-second > .fix-sixe-conteiner > .text-section {
     margin-left: auto;
     margin-right: auto;
 }
@@ -103,10 +125,6 @@
     padding: 100px 0;
 }
 
-.card {
-    padding: 0 180px;
-}
-
 img {
     width: 50px;
     height: 50px;
@@ -114,43 +132,43 @@ img {
     margin-right: 20px;
 }
 
-.inline-block-image {
-    display: inline-block;
-}
-
 .inline-block {
     display: inline-block;
-    width: 71px;
     vertical-align: middle;
-    color: #FFFFFF;
+    font-size: 0px;
 }
 
-.inline-block > .title-card {
+.margin ~ .card {
+    margin-left: 45px;
+
+}
+
+.card-text {
+    width: 72px;
+    color: #FFFFFF
+}
+
+.title-card {
     font-family: Roboto-Medium;
-    font-weight: 500;
     font-size: 21px;
     line-height: 25px;
 }
 
-.inline-block > .text-card {
+.info-card {
     font-family: Roboto-Regular;
-    font-weight: 400;
     font-size: 16px;
     line-height: 26px;
 }
 
 .bc-section-video {
     text-align: center;
-    padding: 112px 0 0 0;
+    padding: 100px 0;
 }
 
-.bc-section-video > .text {
+.bc-section-video > .fix-sixe-conteiner > .text-section {
     margin-left: auto;
     margin-right: auto;
-}
-
-iframe {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .footer {
